@@ -1,0 +1,9 @@
+Whatsapp is not "linkifying" certain TLD's like .TUBE or .AMAZON or .ABUDHABI or .AFRICA. What this means is that if a user writes nic.tube or nic.amazon or nic.africa, it will present them in the chat as text. 
+There are other TLD's that do "linkify" for instance .com or .xyz or .microsoft or .london. What this means is that if a user writes nic.com or nic.xyz or nic.microsoft, it will present them as clickable links. 
+Users of .Tube, .Amazon or .Africa must add the prefix https:// or www. to nic.tube to turn it into a link. 
+I analized the problem and discovered that all TLD's delegated before 11/2015 "Linkify" and all those delegates after 12/2015 "do not linkify". There is a grey period in 11/15 when roughly half of the names delegated "linkify" and the other's don't.
+This affects 400 TLD's, one in every three. Database is available upon request (rami@get.tube)
+It is a problem of so called Universal Acceptance as the largest messaging app in the universe does not treat all TLD's equally. Amazon is trated one way, Microsoft differently, .London gets treated one way, .Africa differently.
+There could be many explanations, one of them is that Whatsapp has not incorporated the lastest snapshot of the Publicsuffic/list to its code since November 2015. 
+This problem replicates in telegram but not in Twitter
+I have attempted to solve this for the past year, ignored both ICANN and Whatsapp several times
